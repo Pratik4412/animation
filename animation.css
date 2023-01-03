@@ -1,0 +1,124 @@
+*{margin: 0; padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body{
+    background-image: url(./123.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    
+}
+img{ height: 80px;
+     width: 80px;}
+.first{
+    background-color: #70b436;
+    height: 12vh;
+    width: 210vh;
+   
+}
+.first ul{
+    float: right;
+    margin-right: 5px;
+}
+.first ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 5px;
+   
+}
+.first ul li a{
+    color: black;
+    padding: 6px 7px;
+    border-radius: 3px;
+}
+.first ul li a:hover,
+.first ul li a.home1{
+    background-color: white;
+}
+.a img{
+    position: absolute;
+    top: 20%;
+    right: 2%;
+    transform: translate(-50%, -50%);
+    height: 90px;
+    width: 70px;
+    animation: animl 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+    
+    
+}
+@keyframes animl{
+    0%{
+        margin-top: 0;
+        margin-top: 0;
+    }
+    25%{
+        margin-right: 10rem;
+        margin-bottom: 10rem;
+        rotate: 0deg;
+    }
+    50%{
+        margin-right: 10rem;
+        margin-bottom: 10rem;
+        rotate: 0deg;
+        transform: scale(.1);
+    }
+    
+}
+
+.box{
+    border: 4px solid black;
+    height: 357px;
+    position: absolute;
+    top: 45%;
+    right: 27.5%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    border-radius: 10px;
+    background-image: url(./123.jpeg) 
+    
+}
+h3{color: white;
+font-size: 40px;}
+.video{
+    position: absolute;
+    top: 40%;
+    right: 60%;
+    
+}
+.t{
+    
+    position: absolute ;
+    top: 40%;
+    right: 25%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    color: rgb(255, 96, 38);
+}
+.t2{
+    position: absolute ;
+    top: 45%;
+    right: 19%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    color: rgb(17, 157, 212);    
+}
+.but{
+    /* border-radius:; */
+    color: black;
+    /* background-color: #196AFF; */
+    /* color: white; */
+    font-size: 20px;
+    margin-top: 10px;
+    display: flex; justify-content: flex-end;
+
+
+   
+}
+
+   
